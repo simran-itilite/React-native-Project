@@ -9,7 +9,7 @@ import infoApp from './infoApp';
 export default function App() {
   return (
   <View>
-  </infoApp>
+  <infoApp/>
   </View>
   );
   }
