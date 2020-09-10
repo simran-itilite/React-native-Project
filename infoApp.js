@@ -1,7 +1,9 @@
 import * as React from 'react';
 import { Text,TextInput, View, StyleSheet } from 'react-native;
 
-export default function App() {
+
+
+export default function infoApp() {
   return (
     <View>
       <Text  style={styles.header}>
@@ -18,6 +20,9 @@ export default function App() {
        </View>
   );
   }
+
+
+
   const styles = StyleSheet.create({
   container: 
   {
