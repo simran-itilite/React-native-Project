@@ -5,7 +5,7 @@ import { Text,TextInput, View, StyleSheet } from 'react-native;
 
 export default function InfoApp() {
   return (
-    <View>
+    <View style={styles.header}>
       <Text  style={styles.header}>
         Lets Register YOU !!
       </Text>
