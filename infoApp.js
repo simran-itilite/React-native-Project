@@ -3,7 +3,7 @@ import { Text,TextInput, View, StyleSheet } from 'react-native;
 
 
 
-export default function infoApp() {
+export default function InfoApp() {
   return (
     <View>
       <Text  style={styles.header}>
