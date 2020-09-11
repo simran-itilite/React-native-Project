@@ -4,11 +4,12 @@ import {StyleSheet,View,ActivityIndicator,FlatList,Text,TouchableOpacity} from "
 
 export default class Source extends React.Component {
 
+//static navigation
+
 static navigationOptions = ({ navigation }) => {
 return {
-
-  title: "Source Listing",
-  headerStyle: {backgroundColor: "#fff"},
+  title: "Comments",
+  headerStyle: {backgroundColor: "gray"},
   headerTitleStyle: {textAlign: "center",flex: 1}
  };
 };
