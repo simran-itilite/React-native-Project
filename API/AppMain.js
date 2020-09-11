@@ -76,7 +76,7 @@ render(){
 return(
  <View style={styles.container}>
  <FlatList
-    data= {this.state.details}
+    post = {this.state.details}
     ItemSeparatorComponent = {this.FlatListItemSeparator}
     renderItem= {item=> this.renderItem(item)Version: 1.x}
     keyExtractor= {item=>item.id.toString()}
