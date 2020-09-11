@@ -55,7 +55,7 @@ return (
 //renderitem
 
 renderItem=(post)=>
-<TouchableOpacity style={styles.list}>
+<TouchableOpacity style={styles.item}>
 <Text style={styles.lightText}> Name :  {post.item.name}</Text>
 <Text style={styles.lightText}> Comments : {post.item.body}</Text>
 </TouchableOpacity>
@@ -75,9 +75,14 @@ render(){
 return(
  <View style={styles.container}>
  <FlatList
-    data= {this.state.dataS}
+    data= {this.state.details}
     ItemSeparatorComponent = {this.FlatListItemSeparator}
-    renderItem= {item=> this.renderItem(item)}
+    renderItem= {item=> this.renderItem(item)Version: 1.x
+navigation-options
+
+Each screen can configure various aspects about how it gets presented in parent navigators. You can configure
+
+}
     keyExtractor= {item=>item.id.toString()}
  />
 </View>
@@ -98,10 +103,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#fff"
    },
-  list:{
+  item:{
   fontFamily: 'Times New Roman',
     padding: 15,
     margin: 4,
-    backgroundColor: "#fff"
+    backgroundColor: "gray"
    }
 });
