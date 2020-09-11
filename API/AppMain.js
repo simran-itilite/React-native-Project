@@ -78,12 +78,7 @@ return(
  <FlatList
     data= {this.state.details}
     ItemSeparatorComponent = {this.FlatListItemSeparator}
-    renderItem= {item=> this.renderItem(item)Version: 1.x
-navigation-options
-
-Each screen can configure various aspects about how it gets presented in parent navigators. You can configure
-
-}
+    renderItem= {item=> this.renderItem(item)Version: 1.x}
     keyExtractor= {item=>item.id.toString()}
  />
 </View>
