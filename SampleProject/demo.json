@@ -1,0 +1,24 @@
+{
+    "quotes": [
+        {
+            "id":1,
+            "name": "Simran",
+            "email": "simran@gmail.com"
+        },
+        {
+            "id":2,
+            "author": "Sachin",
+            "email": "sachi@gmail.com"
+        },
+        {
+            "id":3,
+            "name": "Rimmi",
+            "email": "rimi@gmail.com"
+        },
+        {
+            "id":4,
+            "name": "watson",
+            "email": "sammy@gmail.com"
+        }
+    ]
+}
