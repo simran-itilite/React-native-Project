@@ -1,3 +1,4 @@
+//add the action which you want to implement
 export const ADD_INFO = 'ADD_INFO';
 export const DELETE_INFO = 'DELETE_INFO';
 
