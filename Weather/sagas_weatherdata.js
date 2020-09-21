@@ -1,4 +1,4 @@
-import { REQUEST_WEATHER,SUCCESS_WEATHER } from '../actions/actionIndex';
+import { REQUEST_WEATHER,SUCCESS_WEATHER } from './actionIndex';
 import { takeLatest,all,call,put } from 'redux-saga/effects';
 import axios from 'axios';
 
